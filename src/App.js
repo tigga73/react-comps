@@ -1,15 +1,17 @@
 import Button from './Button';
+import { FaCreditCard, FaOpencart } from 'react-icons/fa6';
 
 const App = () => {
   return (
     <div>
       <div>
-        <Button success rounded ouline>
+        <Button primary rounded outline>
           Click Me!
         </Button>
       </div>
       <div>
         <Button danger outline>
+          <FaCreditCard />
           Buy Now!
         </Button>
       </div>
@@ -22,7 +24,8 @@ const App = () => {
         </Button>
       </div>
       <div>
-        <Button secundary rounded>
+        <Button success rounded>
+          <FaOpencart />
           Something
         </Button>
       </div>
